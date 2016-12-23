@@ -14,6 +14,7 @@ along with Photosorter. If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include "imagesorter.h"
+#include <iostream>
 
 void MergeSortImageSorter::moveItem(QListWidgetItem* item) {
     int row = list->row(item);
@@ -59,10 +60,10 @@ void MergeSortImageSorter::finishMerge() {
             itemResults.clear();
             currentA1 = 0;
             currentB1 = 1;
+            currentListPos = 0;
         }
         currentA2 = 0;
         currentB2 = 0;
-        currentListPos = 0;
         itemResults.push_back(QVector<QListWidgetItem*>());
     }
 }
