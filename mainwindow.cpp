@@ -423,7 +423,7 @@ bool MainWindow::isSortingProcessRunning() {
 
 void MainWindow::setSortingProcessStatus(bool paused) {
     isSortingProcessPaused = paused;
-    if (isSortingProcessRunning()) {
+    if (sorter && isSortingProcessPaused) {
         ui->sortButton->setText("Resume");
     }
 }
