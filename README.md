@@ -3,7 +3,7 @@ Easily select and sort your photographs
 
 The goal is to have a software to easily choose, prune, select and sort a large collection of photograhs.
 
-![demo](http://g.recordit.co/JKj4mTGMxQ.gifg)
+![demo](ezgif.com-1e7352f1ac.gif)
 
 ### The interface
 * One "input list" where we can import pictures from a file.
